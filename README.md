@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic html is organizing content into the most descriptive available tags as opposed to random, unorganized or repetitive use of the same tags. This helps with readability and cascading.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display inline displays the element inside the current block and on the same line where as display block forces other elements down and off of the same row.
 
 3. What are the 4 areas of the box model?
 
+Margin, border, padding, content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Vertical axis
+
 5. Explain why git is valuable to a team of developers.
+
+It allows teams to work on the same project or smaller pieces of the same project without stepping on eachother's code. It leaves a version history and allows for direct comparison of various branches for ease in assimilation.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -48,10 +58,10 @@ You are expected to be able to answer all these questions. Your responses contri
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add PM as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on this Branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
  
