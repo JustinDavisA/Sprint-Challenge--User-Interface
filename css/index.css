@@ -248,3 +248,12 @@ section.about {
 .callToAct {
     margin: 30px 15px;
 }
+
+form {
+    margin: 35px;
+}
+
+.note {
+    width: 500px;
+    height: 200px;
+}
