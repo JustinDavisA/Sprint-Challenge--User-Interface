@@ -153,7 +153,7 @@ nav a {
 }
 
 .jumbo {
-    margin: 20px auto;
+    margin-top: 20px;
 }
 
 header nav {
@@ -204,4 +204,38 @@ div .box9 {
 
 div .box10 {
     background-color: dodgerblue;
+}
+
+.newBoxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.newBoxes .box {
+    width: 370px;
+    justify-content: space-around;
+    margin: 20px 10px;
+    border-bottom: 2px dotted black;
+}
+
+h2 {
+    margin: 10px auto;
+}
+
+button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 20px auto;;
+}
+
+section.about {
+    padding: 20px 10px;
+    border-bottom: 2px dotted black;
+}
+
+.callToAct {
+    margin-bottom: 30px;
 }
