@@ -152,6 +152,10 @@ nav a {
     margin-top: 15px;
 }
 
+nav a:hover {
+    font-size: 150%;
+}
+
 .jumbo {
     margin-top: 20px;
 }
@@ -229,6 +233,11 @@ button {
     border-radius: 5px;
     padding: 5px 15px;
     margin: 20px auto;;
+    
+}
+
+button:hover {
+    background-color: teal;
 }
 
 section.about {
